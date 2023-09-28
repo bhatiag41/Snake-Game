@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  },
+  "homepage":
+  "https://bhatiag41.github.io/Snake-Game"
+  ,
+  "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
+  }
+}
